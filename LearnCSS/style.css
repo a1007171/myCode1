@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(144, 176, 194);
+}
+
+.container{
+    background: linear-gradient(to left, #00ccff, #b3f0ff);
+}
+
+h1{
+    color: red;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2{
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin: auto;
+}
+
+#circle {
+    color: darkred;
+    font-size: 40px;
+}

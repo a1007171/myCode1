@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://miro.medium.com/max/2880/1*6XJoWtIaxNwBWiT7PaLE3w.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2{
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 1px 3px darkblue;
+}
+
+.borderImg{
+    border: 10px dashed red;
+}
+
+ul li{
+    color: white;
+    font-size: 20px;
+}
+
+ul > li{
+    color: yellow;
+}
