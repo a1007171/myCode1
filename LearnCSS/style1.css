@@ -1,14 +1,43 @@
 body{
-    background-image: url(https://miro.medium.com/max/2880/1*6XJoWtIaxNwBWiT7PaLE3w.jpeg);
+    /* background-image: url(https://miro.medium.com/max/2880/1*6XJoWtIaxNwBWiT7PaLE3w.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+
+    background-color: #444;
+    text-align: center;
+}
+
+#foo{
+    color: cyan;
 }
 
 
-h1, h2{
+h1{
     color: rgb(0, 204, 255);
     text-shadow: 1px 1px 3px darkblue;
+    line-height: 1rem;
+    font-style: italic;
+    font-family: 'Indie Flower', cursive;
 }
+
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Liu Jian Mao Cao';
+}
+
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+}
+
 
 .borderImg{
     border: 10px dashed red;
