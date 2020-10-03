@@ -8,6 +8,16 @@ body {
     margin: 0;
 }
 
+label {
+    font-size: 35px;
+    font-weight: 600  ;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -90,8 +100,16 @@ ul.topnav li.dropdownIcon {
 }
 
 div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
     background-color: #fff;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+div.icon {
+    width: 100%;
 }
 
 .leftSide-col {
@@ -111,7 +129,7 @@ h1.large {
 
 
 h1.section2Header {
-    font-size: 65p;
+    font-size: 65px;
     text-align: center;
 }
 
@@ -159,9 +177,14 @@ input[type=text] {
         text-align: left;
     }
 
-    .col-6 {
+    .col-6, .col-4 {
         width: 100%;
         margin: 0;
+    }
+
+    div.box {
+        padding: 5px;
+        display: block;
     }
 
     div.leftSide-col, div.rightSide-col {
